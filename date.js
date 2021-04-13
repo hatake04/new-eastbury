@@ -14,21 +14,23 @@ function registrationPeriod(semester)
   let fallS = new Date(currentDate[3], fall[0], fall[1]);	//Date object registration Fall starts
   let fallF = new Date(currentDate[3], fall[2], fall[3]); //Date object registration Fall ends.
 
-switch(semester)
+switch(semester) 
 {
+  // Spring = 0
   case 0: {
-  	if(date.getTime() < springS.getTime() || date.getTime > springF.getTime()) // compares registration time window for spring with current date
+  	if(date.getTime() < springS.getTime() || date.getTime > springF.getTime()) // compares registration time window for spring with current date. If false redirects to the same page. Otherwise, redirects to add a class.
   	{
     		alert("Registration not in session.");
-    		window.location.href = "";
+    		window.location.href = ""; //url of the same page (loop)
 		break;
   	}
   	else
 	{
-   		window.open("");
+   		window.open(""); // Open new tab to add courses
       		break;
     	}
   }
+  // Fall = 1	
  case 1: {
        if(date.getTime() < fallS.getTime() || date.getTime > fallF.getTime()) // compares registration time window for spring with current date
        {
