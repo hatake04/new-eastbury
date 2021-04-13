@@ -1,7 +1,7 @@
 var SPRING_REG = "Nov 25 Jan 21";
 var FALL_REG = "Jun 25 Aug 21";
 let currentDate = new Date();
-let dateArray = (currentDate.toString()).split();
+let dateArray = (currentDate.toString()).split(" ");
 
 let spring = SPRING_REG.split();
 let fall = FALL_REG.split();
