@@ -1,0 +1,21 @@
+Numeral Systems
+
+Is a writing system that expresses numbers using digits, symbols, characters with a of set of rules to express such number. The number represented by the numeral system is called its value. Earlier number systems didn’t developed a positional notation.
+
+The most used system of numerals is the decimal in which Indians mathematicias are credited for its creation.  
+The roman numerals is a base 10 numeral system originated in ancient rome between 9th and 8th century BC. It was created out of the need to improve counting after 10 since we only have 10 fingers. This number system has lasted more than the roman empire itself. It’s currently used in books enumerating chapters, on clocks, movies titles or any other area where a classic style of number is needed.
+
+This numeral system lacked of a representation of the number zero which brough to it a faulty numeral system. However, this issue didn’t hinge the engineering developments of one of the greatest empires for that time. The roman numerals are represented by a combination of latin letters in which each one has a specific value. I = 1, V = 5, X = 10, L = 50, C = 100, D = 500, M = 1000.  
+
+	Thousands	Hundreds	Tens	Units
+	M	C	X	I
+	MM	CC	XX	II
+	MMM	CCC	XXX	III
+		CD	XL	IV
+		D	L	V
+		DC	LX	VI
+		DCC	LXX	VII
+		DCCC	LXXX	VIII
+		CM	XC	IX
+
+With this table we can conclude the largest number that can be represented by the roman numeral 3999 = MMMCMXCIX
