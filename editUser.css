@@ -1,0 +1,58 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+section{
+  display:flex;
+}
+form{
+  display:flex;
+  flex-direction: column;
+}
+
+#show1, #show2, #show3, #show4{
+  cursor:pointer;
+}
+#menu{
+  background-color: cyan;
+  position:absolute;
+}
+#form1{
+  position: relative;
+  left: 12em;
+  top:0.5em;
+  display:none;
+  background-color:pink;
+}
+#form2{
+  position: relative;
+  left: 12em;
+  top: 0.5em;
+  display:none;
+}
+#form3{
+  position: relative;
+  left: 12em;
+  top: 0.5em;
+  display:none;
+}
+#form4{
+  position:relative;
+  left: 12em;
+  top: 0.5em;
+  display:none;
+}
+.post{
+  width: 40%;
+}
+ul{
+  padding:0;
+  margin:1em;
+}
+li{
+  padding:0;
+  margin: 0.5em;
+}
+p{
+  margin:0.3em;
+}
