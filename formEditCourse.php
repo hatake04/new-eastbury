@@ -18,25 +18,25 @@
       <form action="editCourse.php" method="POST">
         <label>Course Name</label>
         <input type="text">
-        <input type="submit" value="Post" name="name" class="post">
+        <input type="submit" value="crsName" name="name" class="post">
       </form>
     </div>
     <div id="form2">
-      <form action="editUser.php" method="POST">
+      <form action="editCourse.php" method="POST">
         <label>Course Description</label>
         <textarea name="message" col="30" row="10"></textarea>
-        <input type="submit" value="Post" name="desc" class="post">
+        <input type="submit" value="crsDesc" name="desc" class="post">
       </form>
     </div>
     <div id="form3">
-      <form action="editUser.php" method="POST">
+      <form action="editCourse.php" method="POST">
         <label>Course Credit</label>
         <input type="number">
-        <input type="submit" value="Post" name="credit" class="post">
+        <input type="submit" value="crsCredit" name="credit" class="post">
       </form>
     </div>
     <div id="form4">
-      <form action="editUser.php" method="POST">
+      <form action="editCourse.php" method="POST">
        
         <label>Department</label>
         <input list="departments" name="deparments">
@@ -55,7 +55,7 @@
           <option value="Good Afternoon">
           <option value="Good Evening">
         </datalist>
-        <input type="submit" value="Post" name="dept" class="post">
+        <input type="submit" value="crsDept" name="dept" class="post">
       </form>
     </div>
     </section>
