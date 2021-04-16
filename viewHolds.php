@@ -1,6 +1,6 @@
 <hmtl>
   <head>
-  <title>Edit Course</title>
+  <title>View Holds</title>
   </head>
   <body>
     <main>
