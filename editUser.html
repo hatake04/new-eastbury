@@ -1,0 +1,56 @@
+<hmtl>
+  <head>
+  <title>Edit User</title>
+  </head>
+  <body>
+  <main>
+  <p>Edit User</p>
+  <section>
+    <div id="menu">
+      <ul>
+        <li><p id="show1" onclick="showForm(this)">Name</p></li>
+        <li><p id="show2" onclick="showForm(this)">Address</p></li>
+        <li><p id="show3" onclick="showForm(this)">Email</p></li>
+        <li><p id="show4" onclick="showForm(this)">Phone Number</p></li>
+      </ul>
+    </div>
+    <div id="form1">
+      <form action="editUser.php" method="POST">
+        <label>First Name</label>
+        <input type="text">
+        <label>Last Name</label>
+        <input type="text">
+        <input type="submit" value="Post" name="name" class="post">
+      </form>
+    </div>
+    <div id="form2">
+      <form action="editUser.php" method="POST">
+        <label>Street</label>
+        <input type="text">
+        <label>City</label>
+        <input type="text">
+        <label>State</label>
+        <input type="text">
+        <label>Zipcode</label>
+        <input type="text">
+        <input type="submit" value="Post" name="street" class="post">
+      </form>
+    </div>
+    <div id="form3">
+      <form action="editUser.php" method="POST">
+        <label>E-mail</label>
+        <input type="email">
+        <input type="submit" value="Post" name="email" class="post">
+      </form>
+    </div>
+    <div id="form4">
+      <form action="editUser.php" method="POST">
+        <label>Phone Number</label>
+        <input type="text">
+        <input type="submit" value="Post" name="phone" class="post">
+      </form>
+    </div>
+    </section>
+  </main>
+  </body>
+</hmtl>
