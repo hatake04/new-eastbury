@@ -10,7 +10,7 @@
 	include "connectToDB.php";
     extract($_POST);
     
-    $query = "SELECT {placeholder} FROM ClASSES;";
+    $query = "SELECT * FROM ClASSES WHERE CRN = {placeholder};";
     $result = mysqli_query($conn, $query);
     if(mysqli_num_rows($result) > 0)
     {
