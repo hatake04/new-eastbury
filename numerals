@@ -1,11 +1,14 @@
+
+
 Numeral Systems
 
 Is a writing system that expresses numbers using digits, symbols, characters with a of set of rules to express such number. The number represented by the numeral system is called its value. Earlier number systems didn’t developed a positional notation.
 
-The most used system of numerals is the decimal in which Indians mathematicias are credited for its creation.  
-The roman numerals is a base 10 numeral system originated in ancient rome between 9th and 8th century BC. It was created out of the need to improve counting after 10 since we only have 10 fingers. This number system has lasted more than the roman empire itself. It’s currently used in books enumerating chapters, on clocks, movies titles or any other area where a classic style of number is needed.
+The most used system of numerals is the decimal in which Indians mathematicians are credited for its creation.  
 
-This numeral system lacked of a representation of the number zero which brough to it a faulty numeral system. However, this issue didn’t hinge the engineering developments of one of the greatest empires for that time. The roman numerals are represented by a combination of latin letters in which each one has a specific value. I = 1, V = 5, X = 10, L = 50, C = 100, D = 500, M = 1000.  
+The roman numeral is a base 10 numeral system originated in ancient rome between 9th and 8th century BC. It was created out of the need to improve counting after 10. Its use is more accredited to general day to day practices such as trade and commerce. In this period it is highly unlikely the romans needed big numbers for the economy they ran centuries ago, unlike present day productivity, purchase amount and the economy overall worldwide. This number system has lasted more than the roman empire itself. It’s currently used in books enumerating chapters, on clocks, movies titles or any other area where a classic style of number is needed.
+
+This numeral system lacked of a representation of the number zero which brough to it a faulty numeral system and a wall for improvements on scientific areas. This may have been due to the little or no use of the number zero on trades that were conducted on that period.   However, this issue didn’t hinge the engineering developments of one of the greatest empires for that time and the concept of nothing (zero) did exist between roman but as stated above there was no practical use for it in that time. The roman numerals are represented by a combination of  seven latin letters in which each one has a specific value. I = 1, V = 5, X = 10, L = 50, C = 100, D = 500, M = 1000.  
 
 	Thousands	Hundreds	Tens	Units
 	M	C	X	I
@@ -18,4 +21,6 @@ This numeral system lacked of a representation of the number zero which brough t
 		DCCC	LXXX	VIII
 		CM	XC	IX
 
-With this table we can conclude the largest number that can be represented by the roman numeral 3999 = MMMCMXCIX
+With this table we can conclude the largest number that can be represented by the roman numeral 3999 = MMMCMXCIX in the traditional roman numeral system. Nevertheless, in order to get around this cap the romans overcome this issue with a vinculum. A vinculum is a horizontal line placed above or below a value to show some purpose, such as repeting decimals. The vinculum represents a multiple of 1000. Example: XXXVII = 37 multiplied by 1000 = 37,000, or XL IV = 40 multiplied by 1000 added by 4 = 40004. There is a principle which says a letter can’t be repeated 4 times
+
+
