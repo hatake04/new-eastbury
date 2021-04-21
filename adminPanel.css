@@ -1,0 +1,40 @@
+body{
+  margin:0;
+  padding:0;
+}
+#menu{
+  display:flex;
+}
+p{
+   margin:0;
+   padding:0;
+}
+.link{
+   width:100%;
+   text-decoration:none;
+   display:flex;
+   justify-content:center; 
+}
+.link:hover{
+   background-color:#ededed;
+}
+.link:visited{
+   color:#2d5c22;
+}
+#user, #student, #course, #class, #deparment{
+  margin:0.2em;
+  width: 20%;
+  border-radius:0.5em;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  background-color:black;
+  opacity:0.8;
+}
+.title{
+
+  margin-bottom:0.5em;
+  color:#ededed;
+  font-size:1.5em;
+}
