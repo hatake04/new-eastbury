@@ -1,56 +1,67 @@
-<hmtl>
-  <head>
-  <title>Edit User</title>
-  </head>
+<html>
+  <header>
+    <title>Users</title>
+  </header>
   <body>
   <main>
-  <p>Edit User</p>
-  <section>
-    <div id="menu">
-      <ul>
-        <li><p id="show1" onclick="showForm(this)">Name</p></li>
-        <li><p id="show2" onclick="showForm(this)">Address</p></li>
-        <li><p id="show3" onclick="showForm(this)">Email</p></li>
-        <li><p id="show4" onclick="showForm(this)">Phone Number</p></li>
-      </ul>
-    </div>
-    <div id="form1">
-      <form action="editUser.php" method="POST">
-        <label>First Name</label>
-        <input type="text">
-        <label>Last Name</label>
-        <input type="text">
-        <input type="submit" value="Post" name="name" class="post">
-      </form>
-    </div>
-    <div id="form2">
-      <form action="editUser.php" method="POST">
-        <label>Street</label>
-        <input type="text">
-        <label>City</label>
-        <input type="text">
-        <label>State</label>
-        <input type="text">
-        <label>Zipcode</label>
-        <input type="text">
-        <input type="submit" value="Post" name="street" class="post">
-      </form>
-    </div>
-    <div id="form3">
-      <form action="editUser.php" method="POST">
-        <label>E-mail</label>
-        <input type="email">
-        <input type="submit" value="Post" name="email" class="post">
-      </form>
-    </div>
-    <div id="form4">
-      <form action="editUser.php" method="POST">
-        <label>Phone Number</label>
-        <input type="text">
-        <input type="submit" value="Post" name="phone" class="post">
-      </form>
-    </div>
+    <section id="menu">
+      <div id="user" onclick="showForm(this)">
+        <p class="title">User</p>
+      </div>
+      <div id="student" onclick="showForm(this)">
+        <p class="title">Student</p>
+      </div>
+      <div id="course" onclick="showForm(this)">
+        <p class="title">Courses</p> 
+      </div>
+      <div id="class" onclick="showForm(this)">
+        <p class="title">Classes</p>         
+      </div>
+      <div id="department" onclick="showForm(this)">
+        <p class="title">Departments</p>         
+      </div>
+      
+    </section >
+    <section id="submenu">
+       <div id="menuuser">
+          <a class="link"href="#" target="_blank">View users</a>
+          <a class="link"href="#" target="_blank">Add user</a>
+        </div>
+       
+        <div id="menustudent">
+            <a class="link"href="#" target="_blank">View students</a>
+            <a class="link"href="#" target="_blank">Add user</a>
+          </div>
+          
+       <div id="menucourses">
+          <a class="link"href="#" target="_blank">View courses</a>
+          <a class="link"href="#" target="_blank">Add course</a>
+         </div>
+       <div id="menuclasses">
+          <a class="link" href="#" target="_blank">View classes</a>
+          <a class="link"href="#" target="_blank">Add class</a>
+          <a class="link"href="#" target="_blank">Remove class</a>
+        </div>
+        
+       <div id="menudepartments">
+          <a class="link"href="#" target="_blank">View departments</a>
+       </div>
+    </section>
+    <section id="result">
+      <div id="message"></div>
+      <div id="response">
+        <table class="tftable" border="1">
+          <tr><th>Header 1</th><th>Header 2</th><th>Header 3</th><th>Header 4</th><th>Header 5</th></tr>
+          <tr><td>Row:1 Cell:1</td><td>Row:1 Cell:2</td><td>Row:1 Cell:3</td><td>Row:1 Cell:4</td><td>Row:1 Cell:5</td><td class="none"><button id="edit" type="submit">Edit</button></td><td class="none" type="submit"><button id="remove">Remove</button></td></tr>
+          <tr><td>Row:2 Cell:1</td><td>Row:2 Cell:2</td><td>Row:2 Cell:3</td><td>Row:2 Cell:4</td><td>Row:2 Cell:5</td></tr>
+          <tr><td>Row:3 Cell:1</td><td>Row:3 Cell:2</td><td>Row:3 Cell:3</td><td>Row:3 Cell:4</td><td>Row:3 Cell:5</td></tr>
+          <tr><td>Row:4 Cell:1</td><td>Row:4 Cell:2</td><td>Row:4 Cell:3</td><td>Row:4 Cell:4</td><td>Row:4 Cell:5</td></tr>
+          <tr><td>Row:5 Cell:1</td><td>Row:5 Cell:2</td><td>Row:5 Cell:3</td><td>Row:5 Cell:4</td><td>Row:5 Cell:5</td></tr>
+          <tr><td>Row:6 Cell:1</td><td>Row:6 Cell:2</td><td>Row:6 Cell:3</td><td>Row:6 Cell:4</td><td>Row:6 Cell:5</td></tr>
+</table>
+      </div>
     </section>
   </main>
   </body>
-</hmtl>
+
+</html>
