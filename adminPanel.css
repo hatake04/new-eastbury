@@ -2,8 +2,27 @@ body{
   margin:0;
   padding:0;
 }
+main{
+  display:flex;
+  flex-direction:column;
+}
+button{
+  width:100%;
+  height:25%;
+  border:none;
+  border-radius: 0.8em;
+  padding:0.5em;
+}
+
+#edit{
+  background-color:#b0b0b0;
+}
+#remove{
+  background-color:#c71c1c;
+}
 #menu{
   display:flex;
+  margin-top:0.23em;
 }
 p{
    margin:0;
@@ -21,20 +40,85 @@ p{
 .link:visited{
    color:#2d5c22;
 }
-#user, #student, #course, #class, #deparment{
-  margin:0.2em;
+#user, #student, #course, #class, #department{
   width: 20%;
-  border-radius:0.5em;
   display:flex;
   flex-direction:column;
   align-items:center;
-  justify-content:center;
+  justify-content:space-between;
   background-color:black;
   opacity:0.8;
+  cursor:pointer;
 }
 .title{
-
   margin-bottom:0.5em;
   color:#ededed;
   font-size:1.5em;
 }
+#result{
+  background-color:pink;
+  width:100%;
+}
+#message{
+    width:100%;
+}
+#response{
+    width:100%;
+}
+
+.tftable {
+  width:100%;
+  font-size:12px;
+  color:#333333;
+  border-width: 1px;
+  border-color: #9dcc7a;
+  border-collapse: collapse;
+  }
+.tftable th {
+  font-size:12px;
+  background-color:#73c90a;
+  padding: 8px;
+  border-width:0px;
+  border-color:#73c90a;
+  text-align:center;
+}
+.tftable tr {
+  background-color:#fcfcfc;
+  border:none;
+  }
+  
+.tftable td {
+
+  font-size:12px;
+  border-width: 0px;
+  padding: 8px;
+  border-style: solid;
+  border-color: #9dcc7a;
+  text-align:center;
+  }
+ 
+ tr:nth-child(odd){
+   background-color:#ebebeb;
+ }
+ .none:hover{
+   background-color:#ededed;
+  
+ }
+ .tftable td:hover{
+   background-color:#3d3a3a;
+   color:white;
+   }
+  #menuuser, #menustudent, #menucourses, #menuclasses, #menudepartments{
+    width:20%;
+    visibility:hidden;
+    background-color:black;
+    opacity:0.8;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    margin:0;
+  }
+  #submenu{
+    display:flex;
+    margin:0;
+    }
